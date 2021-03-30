@@ -13,10 +13,6 @@ const Layout = ({ children }) => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto" activeKey={history?.location?.pathname}>
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/management">Management</Nav.Link>
-          <Nav.Link href="/eventos">Eventos</Nav.Link>
-          <Nav.Link href="/logística">Logística</Nav.Link>
-          <Nav.Link href="/relatório">Relatório</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
